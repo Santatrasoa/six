@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/home/diary/L2/Programmation/Java/javaEE/Conversion/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+753428971.index
+3374557995.index
+282994562.index
+0.index
+1873118751.index
+3229573350.index
+1707244230.index

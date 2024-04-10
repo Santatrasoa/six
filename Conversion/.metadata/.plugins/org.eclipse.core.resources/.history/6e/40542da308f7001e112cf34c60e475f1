@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Acceuil</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<ul>
+		<li><a class="active" href="index.html">Accueil</a></li>
+		<li class="notHidden">
+			<div class="dropdown">
+				<button class="dropbtn">Conversion</button>
+				<div class="dropdown-content">
+					<a style="text-align: left;" href="temperature.jsp">temperature</a>
+					<a style="text-align: left;" href="poid.jsp">Poid</a>
+					<a style="text-align: left;" href="longueur.jsp">longueur</a>
+				</div>
+			</div>
+		</li>
+		<li><a href="index.html">Contact</a></li>
+		<li><a href="detail.html">A propos</a></li>
+	</ul>
+	
+	<br>
+	<h1>Conversion de Temperature</h1>
+	<p style="margin-top: 50Px;">
+		Les conversions de températures sont utilisées pour exprimer des valeurs de température dans différentes échelles. Les échelles de température les plus couramment utilisées sont Celsius (°C), Fahrenheit (°F) et Kelvin (K). Les conversions entre ces échelles sont un peu plus complexes car elles impliquent des formules spécifiques plutôt que des facteurs de conversion simples. Par exemple, pour convertir des degrés Celsius en Fahrenheit, on utilise la formule : °F = (°C × 9/5) + 32. De même, pour convertir des degrés Celsius en Kelvin, on utilise la formule : K = °C + 273,15.
+	</p>
+	
+	<p>
+		
+	</p>
+</body>
+
+</html>

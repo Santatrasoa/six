@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Acceuil</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+	<ul>
+		<li><a class="active" href="index.html">Accueil</a></li>
+		<li class="notHidden">
+			<div class="dropdown">
+				<button class="dropbtn">Conversion</button>
+				<div class="dropdown-content">
+					<a style="text-align: left;" href="temperature.jsp">temperature</a>
+					<a style="text-align: left;" href="poid.jsp">Poid</a>
+					<a style="text-align: left;" href="longueur.jsp">longueur</a>
+				</div>
+			</div>
+		</li>
+		<li><a href="detail.html">A propos</a></li>
+	</ul>
+	
+	<br><br>
+	
+	<div style="margin-top: 50px" class="acceuil">
+		<h1 >
+			BIENVENUE AU MONDE DE CONVERSION	
+		</h1>
+		<span> Tous ce que vous voulez, vous les aurez ici, et tout de suite </span>
+	</div>
+</body>
+
+</html>
